@@ -1,0 +1,123 @@
+# C++ ignores
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# CMake ignores
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build directories
+build/
+Debug/
+Release/
+x64/
+x86/
+
+# Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific ignores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific ignores
+.DS_Store
+Thumbs.db
+
+# Project specific ignores
+# Ignore generated documentation
+docs/_build/
+docs/api/
+
+# Ignore logs and data files
+*.log
+*.csv
+*.dat
+
+# Ignore compiled Python bindings
+python/marl_framework/*.cpp
+
+# Ignore third-party libraries (consider using git submodules instead)
+third_party/*
+!third_party/CMakeLists.txt
+
+# Ignore any local configuration files
+config.local.ini
+
+# Ignore performance profiling results
+tools/profiling/results/
+
+# Ignore benchmark results
+tools/benchmarking/results/
+
+# Ignore any sensitive or environment-specific files
+*.env
+*.key
+*.pem
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore generated binaries
+bin/
+lib/
+
+# Ignore user-specific CMake files
+CMakeUserPresets.json
+
+# Ignore generated protocol buffers
+*.pb.h
+*.pb.cc
+
+# Ignore Doxygen generated files
+docs/doxygen/
+
+# Ignore cache directories
+.cache/
+
+# Ignore ccache directory
+.ccache/
+
+# Ignore conan files
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
